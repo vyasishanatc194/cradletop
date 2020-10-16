@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="768px" height="45px" viewBox="0 0 768 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>wave-shape01</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="768" height="45"></rect>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="wave-shape01">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#F8FAFF" xlink:href="#path-1"></use>
+            <g mask="url(#mask-2)" fill="#FFFFFF" id="Mask-Copy">
+                <path d="M0,19.2114537 C90.569089,44.8267254 214.779597,44.8267254 372.631525,19.2114537 C530.483453,-6.40381791 662.272944,-6.40381791 768,19.2114537 L768,43 L0,43 L0,19.2114537 Z" transform="translate(384.000000, 21.500000) scale(1, -1) translate(-384.000000, -21.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

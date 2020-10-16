@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+@import "./default-style";
+@import "./custom-icons";
+
+/* customs general css */
+
+body {
+  overflow-x: hidden;
+}
+
+.display_show {
+  display: block;
+}
+
+.desktop-hidden {
+  display: none;
+}
+
+.mlr-6 {
+  margin-right: -6px !important;
+  margin-left: -6px !important;
+}
+
+.plr-6 {
+  padding-right: 6px !important;
+  padding-left: 6px !important;
+}
+
+.mlr-10 {
+  margin-right: -10px !important;
+  margin-left: -10px !important;
+}
+
+.plr-10 {
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+}
+
+.mlr-20 {
+  margin-right: -20px !important;
+  margin-left: -20px !important;
+}
+
+.plr-20 {
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+}
+
+.position-initial {
+  position: initial !important;
+}
+
+.btn-common-primary {
+  background: #e6e2fd;
+  border: 1px solid #e6e2fd;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #725bf4;
+  letter-spacing: 0;
+  min-height: 56px;
+  padding: 6px 25px 5px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.8s;
+  min-width: 120px;
+
+  &:hover,
+  &:focus {
+    color: #e6e2fd;
+    background: #725bf4;
+    border-color: #725bf4;
+  }
+}
+/* End of general css */
+
+.main-middle-area {
+  padding: 90px 0 0 0;
+  position: relative;
+}
+
+/* general card */
+
+@media (min-width: 1025px) {
+  .max-md-1920 {
+    margin: 0 auto;
+    max-width: 1920px;
+    position: relative;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1290px) {
+  .container {
+    max-width: 1100px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  body.overflow-fixed {
+    overflow-y: hidden;
+  }
+
+  .position-fixed-custom {
+    overflow: hidden;
+  }
+
+  .position-fixed-remove {
+    .slideInDown {
+      animation: none;
+    }
+  }
+
+  .main-middle-area {
+    padding: 70px 0 0 0;
+  }
+}
+
+// custom animation
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.slideInDown {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+}
+
+@-webkit-keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+  
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+} // custom animation
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  body.overflow-fixed {
+    overflow-y: hidden;
+  }
+
+  .position-fixed-custom {
+    overflow: hidden;
+  }
+
+  .position-fixed-remove {
+    .slideInDown {
+      animation: none;
+    }
+  }
+
+  .main-middle-area {
+    padding: 70px 0 0 0;
+  }
+}

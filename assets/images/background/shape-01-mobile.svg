@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="124px" viewBox="0 0 128 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>shape-01-mobile</title>
+    <defs>
+        <rect id="path-1" x="0.533299583" y="0" width="127" height="124"></rect>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="shape-01-mobile">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g mask="url(#mask-2)" id="Oval-+-Path-Mask">
+                <g transform="translate(109.500000, 108.500000) scale(-1, 1) translate(-109.500000, -108.500000) translate(-32.000000, -33.000000)">
+                    <circle id="Oval" fill="#C7BDFB" cx="212.9667" cy="76.5" r="18.5"></circle>
+                    <path d="M54.4235805,189.800189 C68.7302126,203.609104 100.388287,206.195133 128.736912,231.261041 C155.899835,257.156921 196.132236,244.944966 203.625644,213.618369 C211.118545,182.291772 193.418017,162.366812 226.890576,142.800957 C260.363135,123.235103 244.040195,64.9439141 189.126549,87.7165136 C134.212903,110.48891 131.734811,33.6163131 108.481462,37.6503702 C91.8816761,40.5301844 89.0173625,68.103518 77.460575,92.8779049 C72.828357,102.808031 66.7996192,112.288483 57.9301024,119.548869 C26.9324047,144.922475 40.1169485,175.991275 54.4235805,189.800189 Z" id="Path" fill="#C7BDFB" fill-rule="nonzero" transform="translate(141.608662, 141.407678) rotate(30.000000) translate(-141.608662, -141.407678) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

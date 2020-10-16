@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="195px" height="345px" viewBox="0 0 195 345" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>shape-01</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="195" height="345"></rect>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="shape-01">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g mask="url(#mask-2)" fill="#C7BDFB">
+                <g transform="translate(226.000000, 225.500000) scale(-1, 1) translate(-226.000000, -225.500000) translate(-68.000000, -69.000000)">
+                    <circle id="Oval" fill-rule="evenodd" cx="443.5" cy="158.5" r="38.5"></circle>
+                    <path d="M112.503034,395.221831 C142.297243,423.951422 208.273056,429.28357 267.314164,481.429505 C323.882716,535.305601 407.753261,509.810696 423.422643,444.569055 C439.090968,379.327413 402.233532,337.868438 472.027778,297.072242 C541.822023,256.276045 507.899384,134.927446 393.41342,182.436424 C278.927456,229.944979 273.890378,69.882615 225.420263,78.32106 C190.819075,84.345058 184.803642,141.763854 160.676456,193.36903 C151.005742,214.053535 138.425221,233.804032 119.927782,248.936556 C55.2818708,301.821722 82.7088253,366.492239 112.503034,395.221831 Z" id="Path" fill-rule="nonzero" transform="translate(294.302048, 294.321528) rotate(30.000000) translate(-294.302048, -294.321528) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
