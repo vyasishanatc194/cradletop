@@ -416,10 +416,6 @@ header {
         align-items: center;
       }
 
-      .nav-div .closebtn {
-        display: block;
-      }
-
       .ullist-inline li {
         width: 100%;
         margin: 0;
@@ -686,14 +682,9 @@ header {
       }
     }
   }
-
-
 }
 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   header {
     .header-div.cm-header-div {
       .logo-div {
@@ -707,7 +698,7 @@ and (orientation : landscape) {
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1366px) and (min-height:1025px){
+@media (min-width: 1024px) and (max-width: 1366px) and (min-height: 1025px) {
   header {
     .header-div.cm-header-div {
       .logo-div {

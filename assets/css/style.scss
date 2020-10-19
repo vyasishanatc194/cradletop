@@ -75,14 +75,12 @@ body {
     border-color: #725bf4;
   }
 }
-/* End of general css */
 
+/* End of general css */
 .main-middle-area {
   padding: 90px 0 0 0;
   position: relative;
 }
-
-/* general card */
 
 @media (min-width: 1025px) {
   .max-md-1920 {
@@ -155,7 +153,7 @@ body {
     transform: translate3d(0, -100%, 0);
     visibility: visible;
   }
-  
+
   to {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);

@@ -86,7 +86,8 @@ video {
   vertical-align: baseline;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
@@ -331,7 +332,6 @@ body {
   position: relative;
 }
 
-/* general card */
 @media (min-width: 1025px) {
   .max-md-1920 {
     margin: 0 auto;
