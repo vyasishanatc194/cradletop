@@ -114,7 +114,7 @@
         }
 
         &.error-message {
-          color: #ff0000;
+          color: #f00;
         }
       }
 
@@ -155,7 +155,7 @@
         }
 
         &.error {
-          border-color: #ff0000;
+          border-color: #f00;
         }
       }
 
@@ -176,8 +176,8 @@
       &.error-form-group {
         .btn-common-primary {
           color: #fff;
-          background: #ff0000;
-          border-color: #ff0000;
+          background: #f00;
+          border-color: #f00;
         }
       }
     }
