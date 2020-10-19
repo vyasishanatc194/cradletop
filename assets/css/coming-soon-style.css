@@ -121,6 +121,20 @@
   position: relative;
 }
 
+.content-banner .cta-box-div .form-group .message-info-div {
+  margin: 5px 0 5px 0;
+  color: #725bf4;
+  font-weight: 500;
+}
+
+.content-banner .cta-box-div .form-group .message-info-div.success-message {
+  color: #725bf4;
+}
+
+.content-banner .cta-box-div .form-group .message-info-div.error-message {
+  color: #ff0000;
+}
+
 .content-banner .cta-box-div .form-group .form-control {
   background-color: #f8faff;
   border: 2px solid #e6e9f0;
@@ -156,10 +170,30 @@
   color: #23272a;
 }
 
+.content-banner .cta-box-div .form-group .form-control.success {
+  border-color: #725bf4;
+}
+
+.content-banner .cta-box-div .form-group .form-control.error {
+  border-color: #ff0000;
+}
+
 .content-banner .cta-box-div .form-group .btn.btn-common-primary {
   position: absolute;
   top: 2px;
   right: 2px;
+}
+
+.content-banner .cta-box-div .form-group.success-form-group .btn-common-primary {
+  color: #e6e2fd;
+  background: #725bf4;
+  border-color: #725bf4;
+}
+
+.content-banner .cta-box-div .form-group.error-form-group .btn-common-primary {
+  color: #fff;
+  background: #ff0000;
+  border-color: #ff0000;
 }
 
 .content-banner .social-group-div {

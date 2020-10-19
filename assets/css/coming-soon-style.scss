@@ -104,6 +104,20 @@
         position: relative;
       }
 
+      .message-info-div {
+        margin: 5px 0 5px 0;
+        color: #725bf4;
+        font-weight: 500;
+
+        &.success-message {
+          color: #725bf4;
+        }
+
+        &.error-message {
+          color: #ff0000;
+        }
+      }
+
       .form-control {
         background-color: #f8faff;
         border: 2px solid #e6e9f0;
@@ -135,12 +149,36 @@
         &:-moz-placeholder {
           color: #23272a;
         }
+
+        &.success {
+          border-color: #725bf4;
+        }
+
+        &.error {
+          border-color: #ff0000;
+        }
       }
 
       .btn.btn-common-primary {
         position: absolute;
         top: 2px;
         right: 2px;
+      }
+
+      &.success-form-group {
+        .btn-common-primary {
+          color: #e6e2fd;
+          background: #725bf4;
+          border-color: #725bf4;
+        }
+      }
+
+      &.error-form-group {
+        .btn-common-primary {
+          color: #fff;
+          background: #ff0000;
+          border-color: #ff0000;
+        }
       }
     }
   }
