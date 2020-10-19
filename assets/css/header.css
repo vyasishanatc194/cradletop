@@ -710,9 +710,6 @@ header .header-div.header-bgcolor .logo_img.text-logo {
         -ms-flex-align: center;
             align-items: center;
   }
-  header .header-div .nav-div .closebtn {
-    display: block;
-  }
   header .header-div .ullist-inline li {
     width: 100%;
     margin: 0;
